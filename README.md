@@ -24,7 +24,7 @@ Or install it yourself as:
 Set up:
 
     TumblrWrapper.consumer_key = "YOUR APPLICATION KEY"
-    TumberWrapper.consumer_secret = "YOUR APPLICATION SECRET"
+    TumblrWrapper.consumer_secret = "YOUR APPLICATION SECRET"
 
 If you need the token and secret for a user:
 
@@ -52,8 +52,8 @@ The access token is memoized in either case, so you can call it again once it wa
     => {
           consumer_key: "YOUR APPLICATION KEY",
           consumer_secret: "YOUR APPLICATION SECRET",
-          oauth_token: 'TOKEN',
-          oauth_secret: 'SECRET',
+          token: 'TOKEN',
+          token_secret: 'SECRET',
         }
 
 To get the first 40 posts of your blog:
